@@ -1,0 +1,64 @@
+
+
+
+/* HomeScreen.css */
+body {
+  margin: 0;
+  display: flex;
+   align-items: center;
+  flex-direction: column; /* Adjusted to column direction */
+  background: linear-gradient(to bottom, rgba(213, 0, 0, 0.8), rgba(69, 60, 69, 0.8)),
+    url('C:\Users\asus\Desktop\sroitaproject\image-classifier-frontend\src\backmek.jpg') center center/cover no-repeat;
+  color: #030000;
+  font-family: Patua One, sans-serif;
+  height: 100vh;
+}
+
+.header-text {
+  margin: 20px;
+  font-family: 'Sans-serif';
+  font-weight: bold;
+  color: white;
+  font-size: 3rem; /* Adjust font size as needed */
+  text-align: left;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.centered-box {
+  background-color: rgba(212, 199, 199, 0.9);
+  padding: 150px;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+}
+
+.try-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.try-button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .try-button {
+    padding: 0.25em 0.75em;
+  }
+}
