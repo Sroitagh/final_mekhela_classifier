@@ -1,0 +1,127 @@
+body {
+
+  .header-text {
+    padding-bottom: 50px; 
+    font-family: 'Sans-serif'; 
+    font-weight: bold;
+    color: white;
+    display: inline-block; 
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  
+  
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background:   linear-gradient(to right, rgba(213, 0, 0, 0.8), rgba(255, 254, 255, 0.8)),url('D:\Projects\MEKHELA CLASSIFIER\mekhela-classification-app\src\bihu wallppaper.jpg') center center/cover no-repeat;
+    color: #030000;
+    font-family: Patua One, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .centered-box {
+    background-color: rgba(212, 199, 199, 0.9); 
+    padding: 150px; 
+    border-radius: 15px; 
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+    margin: 20px; 
+  }
+  
+  .btn-primary {
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    padding: 0.5rem 1.5rem;
+    background-color: #3498db; 
+    color: white;
+  }
+  
+  .img-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .img-preview {
+    max-width: 100px; /* Adjust as needed */
+    max-height: 100px; /* Adjust as needed */
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  h2 {
+    margin: 50px 0;
+  }
+  
+  .file-drop-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px;
+    border: 1px dashed rgba(5, 0, 0, 0.4);
+    border-radius: 3px;
+    transition: 0.2s;
+    margin-bottom: 20px;
+  }
+  
+  .choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(12, 1, 1, 0.1);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .image-preview-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-preview {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
